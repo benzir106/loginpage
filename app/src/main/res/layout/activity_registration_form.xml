@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".RegistrationForm">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration Form"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/Black"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/namelId"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Enter Your Name"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        android:inputType="text"
+        android:drawableLeft="@drawable/ic_name"
+        />
+    <EditText
+        android:id="@+id/EmailId"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Enter Your Email"
+        android:inputType="textEmailAddress"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_email"
+        />
+        <EditText
+            android:id="@+id/phonelId"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint="Enter Your Pnone Number"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_phone"
+            android:inputType="phone"
+            />
+<EditText
+        android:id="@+id/passlId"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Enter Your Password"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_lock"
+       android:inputType="textPassword"
+        />
+
+
+    <Button
+        android:id="@+id/creatId"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Submit"
+        android:textColor="@color/Black"
+        android:textSize="20sp"
+        android:background="@drawable/loginebt"
+        android:backgroundTint="@color/red"
+        android:textStyle="bold"
+        android:textAllCaps="false"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
